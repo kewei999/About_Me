@@ -18,6 +18,16 @@
         app:layout_constraintTop_toTopOf="parent"
         style="@style/my_font_style" />
 
+    <EditText
+        android:id="@+id/editTextnickname"
+        style="@style/my_font_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/what_is_you_nickname"
+        android:inputType="textShortMessage|textPersonName" />
+
     <ImageView
         android:contentDescription="@string/my_profile_pic"
         android:id="@+id/imageView"
