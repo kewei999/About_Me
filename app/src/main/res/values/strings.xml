@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="my_name">Tye Ke Wei</string>
+    <string name="my_profile_pic">Profile Picture</string>
+    <string name="my_profile_desc">
+        \n Education:
+        \n\t SJKC,Kheow Bin
+        \n
+        \n\t SMK Seri Selayang
+        \n
+        \n\t TAR UC
+        \n
+        \n\nWorking Experiences:
+        \n\t Tuition Centre
+
+        \n\txxxxx
+        \n\t xxxxx
+        \n\n\t dxxxxx
+
+        \n\n\n\teeeee
+        \n\n\n eeee
+        \n\n\n eee
+    </string>
+</resources>
