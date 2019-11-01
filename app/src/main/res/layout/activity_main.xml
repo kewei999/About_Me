@@ -9,24 +9,45 @@
     tools:context=".MainActivity">
 
     <TextView
+        style="@style/my_font_style"
         android:gravity="center"
         android:text="@string/my_name"
-        app:fontFamily="@font/roboto_slab_thin"
+        app:fontFamily="@font/roboto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/my_font_style" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextnickname"
+        android:id="@+id/editText_nickname"
         style="@style/my_font_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/what_is_you_nickname"
-        android:inputType="textShortMessage|textPersonName" />
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonDone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:fontFamily="@font/roboto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:text="@string/done"/>
+
+    <TextView
+        android:id="@+id/textViewNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="@dimen/text_size"
+        android:background="@color/colorAccent"
+        android:paddingBottom="@dimen/layout_padding"/>
 
     <ImageView
         android:contentDescription="@string/my_profile_pic"
